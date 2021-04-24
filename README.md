@@ -6,7 +6,8 @@ This repository contains the FPredX models for the prediction of excitation maxi
 
 FPredX was tested in the environment 
 
-`MAFFT 7.471`
+`MAFFT 7.471` (install MAFFT: https://mafft.cbrc.jp/alignment/software/source.html)
+
 `joblib 1.0.1`
 `numpy 1.19.4`
 `pandas 1.1.4`
