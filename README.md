@@ -12,6 +12,7 @@ FPredX was tested in the environment
 
 # Installation
 Change the path inside `FPredX_predict.py` to your local MAFFT executable.
+
 No further installation is required.
 
 # Prediction
