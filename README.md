@@ -22,11 +22,15 @@ No further installation is required.
 # Prediction
 Simply 
 
+`cp (your fluorescent proteins fasta) ./FPredX`
+
+`cd ./FPredX`
+
 `python FPredX_predict.py (your fluorescent proteins fasta)`
 
 # Usage example
 
-`cd example`
+`cd ./FPredX/example`
 
 `python FPredX_predict.py pred.fasta`
 
