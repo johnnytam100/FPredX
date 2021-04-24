@@ -9,7 +9,9 @@ No installation is required.
 But change the path to your local MAFFT executable inside `FPredX_predict.py`.
 
 # Prediction
-Simply `python FPredX_predict.py (your fluorescent proteins fasta)`
+Simply 
+
+`python FPredX_predict.py (your fluorescent proteins fasta)`
 
 # Usage example
 
