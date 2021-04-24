@@ -7,9 +7,9 @@ This repository contains the FPredX models for the prediction of excitation maxi
 FPredX was tested in the environment 
 
 `MAFFT 7.471`
+`joblib 1.0.1`
 `numpy 1.19.4`
 `pandas 1.1.4`
-`joblib 1.0.1`
 
 # Installation
 Change the path inside `FPredX_predict.py` to your local MAFFT executable.
