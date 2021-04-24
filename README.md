@@ -28,6 +28,3 @@ Check if any insertions were removed from the above log records of MAFFT OR conf
 Higher the number of position-residue pairs reported above, lower the prediction accuracy.
 
 Check for locations of the position-residue pairs from the multiple aligned fasta file 'FPredX_mafft_predict.fasta'
-
-**Test**
-
