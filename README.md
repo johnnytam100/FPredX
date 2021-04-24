@@ -11,8 +11,8 @@ FPredX was tested in the environment
 `joblib 1.0.1`
 
 # Installation
-No installation is required.
-But change the path to your local MAFFT executable inside `FPredX_predict.py`.
+Change the path inside `FPredX_predict.py` to your local MAFFT executable.
+No further installation is required.
 
 # Prediction
 Simply 
