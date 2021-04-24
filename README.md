@@ -18,12 +18,17 @@ Simply
 # Remarks
 
 (1) Insertions that cannot fit into the aligned FP sequences of the original FPredX dataset were removed to maintain the total number of features
-Higher the number of insertions removed, lower the prediction accuracy.")
+
+Higher the number of insertions removed, lower the prediction accuracy.
+
 Check if any insertions were removed from the above log records of MAFFT OR confirm with the multiple aligned fasta file 'FPredX_mafft_predict.fasta
 
 (2) Position-residue pairs:
+
 If position-residue pairs from the sequences submitted for prediction were not present in the aligned FP sequences of the original FPredX dataset, all zeros were assigned to the positions for prediction.
+
 Higher the number of position-residue pairs reported above, lower the prediction accuracy.
+
 Check for locations of the position-residue pairs from the multiple aligned fasta file 'FPredX_mafft_predict.fasta'
 
 **Test**
