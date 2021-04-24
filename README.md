@@ -30,9 +30,9 @@ Simply
 
 # Usage example
 
-`cd ./FPredX/example`
+`cd ./FPredX`
 
-`python FPredX_predict.py pred.fasta`
+`python FPredX_predict.py example.fasta`
 
 # Remarks
 
