@@ -11,6 +11,7 @@ But change the path to your local MAFFT executable inside `FPredX_predict.py`.
 # Usage example
 Simply
 `cd example`
+
 `python FPredX_predict.py pred.fasta`
 
 # Remarks
