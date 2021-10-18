@@ -22,7 +22,7 @@ Step1: Please install the following
 
 # Installation
 
-Step2: clone FPredX by
+Step2: Clone FPredX by
 
 `git clone https://github.com/johnnytam100/FPredX.git`
 
