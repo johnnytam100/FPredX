@@ -147,7 +147,7 @@ for dir in dir_list:
       mut_pred_df_all = pd.concat([mut_pred_df_all, mut_pred_df], axis=1)
 
     # calculate mean
-    mean = mut_pred_df_all.mode(axis=1)
+    mean = mut_pred_df_all.mode(axis=1)[0]
     mean.columns = [dir]
 
     # concat, save
