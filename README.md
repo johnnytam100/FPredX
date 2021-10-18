@@ -4,7 +4,7 @@ This repository contains the FPredX models for the prediction of excitation maxi
 
 # Prerequisites
 
-Install the following
+Step1: Please install the following
 
 `MAFFT 7.471` (install MAFFT: https://mafft.cbrc.jp/alignment/software/source.html)
 
@@ -22,18 +22,20 @@ Install the following
 
 # Installation
 
+Step2: clone FPredX by
+
 `git clone https://github.com/johnnytam100/FPredX.git`
 
-Change the path inside `FPredX_predict.py` to your local MAFFT executable.
+Step3: Change the path inside `FPredX_predict.py` to your local MAFFT executable.
 
-No further installation is required.
+Done!
 
 # Prediction
 Simply 
 
-`cp (your fluorescent proteins fasta) ./FPredX`
-
 `cd ./FPredX`
+
+`cp (path to your fluorescent proteins fasta) ./`
 
 `python FPredX_predict.py (your fluorescent proteins fasta)`
 
