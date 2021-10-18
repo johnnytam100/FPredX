@@ -21,6 +21,9 @@ Install the following
 `pip install numpy==1.21.2`
 
 # Installation
+
+`git clone https://github.com/johnnytam100/FPredX.git`
+
 Change the path inside `FPredX_predict.py` to your local MAFFT executable.
 
 No further installation is required.
