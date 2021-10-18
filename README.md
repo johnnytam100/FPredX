@@ -9,10 +9,15 @@ Step1: Please install the following
 `MAFFT 7.471` (install MAFFT: https://mafft.cbrc.jp/alignment/software/source.html)
 
 `pip install joblib==1.1.0`
+
 `pip install dill==0.3.4`
+
 `pip install xgboost==0.90`
+
 `pip install scikit-learn==0.22.2`
+
 `pip install pandas==1.1.5`
+
 `pip install numpy==1.21.2`
 
 # Installation
