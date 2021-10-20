@@ -177,7 +177,7 @@ if len(unavailable_list) != 0:
   print("\n\nPrediction complete. Thanks for using FPredX! ( ^_____^  )\n\n")
 
 else:
-  print("#####################")
+  print("\n\n#####################")
   print(">>> FPredX NOTICE <<<")
   print("#####################")
   print("\n\n(1) Insertions that cannot fit into the aligned FP sequences of the original FPredX dataset were removed to maintain the total number of features.")
