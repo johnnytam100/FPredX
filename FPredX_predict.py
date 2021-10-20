@@ -50,7 +50,6 @@ for i in range(len(fasta[1::2])):
   seq_align.append(fasta[1::2][i].replace('\n', ''))
 seq_list_df['seq_align'] = seq_align
 
-meta_col = seq_list_df.shape[1]
 
 ########################
 ''' One hot encoding '''
