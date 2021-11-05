@@ -2,6 +2,8 @@
 
 This repository contains the FPredX models for the prediction of excitation maximum, emission maximum, brightness and oligomeric state of fluorescent proteins.
 
+Tam, C.; Zhang, K.Y.J. FPredX: Interpretable models for the prediction of spectral maxima, brightness, and oligomeric states of fluorescent proteins. Proteins 2021, doi:10.1002/prot.26270.
+
 # Prerequisites
 
 Step1: Please install the following
