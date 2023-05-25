@@ -22,6 +22,9 @@ def parse(args=None):
     parser.add_argument('-p', '--path',
                         help='path to fasta file',
                         required=True)
+    parser.add_argument('-o', '--out',
+                        help='path to output directory',
+                        required=True)
     results = parser.parse_args(args)
     return results
 
@@ -115,9 +118,9 @@ def predict_with_all_models(seq_list_df_trim, one_hot_df_pred_trim):
             mut_pred_df_all_merge.to_csv(dir + "_pred.csv")
     return all_pred_mean_df
 
-def save_prediction_summary(all_pred_mean_df, seq_list_df_trim, one_hot_df_pred_trim):
+def save_prediction_summary(all_pred_mean_df, seq_list_df_trim, one_hot_df_pred_trim, out_path):
     all_pred_mean_df = pd.concat([all_pred_mean_df, seq_list_df_trim, one_hot_df_pred_trim], axis=1)
-    all_pred_mean_df.to_csv("summary_pred_mean.csv")
+    all_pred_mean_df.to_csv(out_path + "/summary_pred_mean.csv")
     
 def report_unavailable_residue_pairs(unavailable_list):
     if len(unavailable_list) != 0:
@@ -159,7 +162,7 @@ def main():
     num_pred = int(os.popen("grep -c '>' " + args.path).read())
     seq_list_df_trim, one_hot_df_pred_trim = remove_fpredx_sequences(one_hot_df_pred_trim, seq_list_df, num_pred)
     all_pred_mean_df = predict_with_all_models(seq_list_df_trim, one_hot_df_pred_trim)
-    save_prediction_summary(all_pred_mean_df, seq_list_df_trim, one_hot_df_pred_trim)
+    save_prediction_summary(all_pred_mean_df, seq_list_df_trim, one_hot_df_pred_trim, args.out)
     report_unavailable_residue_pairs(unavailable_list)
     print('Analysis Finished!')
 
