@@ -3,3 +3,5 @@ pandas==1.1.5
 numpy==1.19.5
 joblib==1.1.0
 dill==0.3.4
+cython>=0.28.5
+xgboost==0.90
