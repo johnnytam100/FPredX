@@ -14,25 +14,17 @@ Step1: Please install the following
 
 `MAFFT 7.471` (install MAFFT: https://mafft.cbrc.jp/alignment/software/source.html)
 
-`pip install joblib==1.1.0`
-
-`pip install dill==0.3.4`
-
-`pip install xgboost==0.90`
-
-`pip install scikit-learn==0.22.2`
-
-`pip install pandas==1.1.5`
-
-`pip install numpy==1.21.2`
-
 # Installation
 
 Step2: Clone FPredX by
 
 `git clone https://github.com/johnnytam100/FPredX.git`
 
-Step3: Change the path inside `FPredX_predict.py` to your local MAFFT executable.
+Step3: Install required packages 
+
+```
+pip install --no-cache-dir -r requirements.txt
+```
 
 Done!
 
@@ -43,13 +35,8 @@ Simply
 
 `cp (path to your fluorescent proteins fasta) ./`
 
-`python FPredX_predict.py (your fluorescent proteins fasta)`
+`python FPredX_predict.py -m /usr/local/bin/mafft -p example.fasta`
 
-# Usage example
-
-`cd ./FPredX`
-
-`python FPredX_predict.py example.fasta`
 
 # Remarks
 
